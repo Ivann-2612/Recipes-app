@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Reacipes-app/static/css/main.c94dfa18.chunk.css",
+    "main.js": "/Reacipes-app/static/js/main.236a5072.chunk.js",
+    "main.js.map": "/Reacipes-app/static/js/main.236a5072.chunk.js.map",
+    "runtime-main.js": "/Reacipes-app/static/js/runtime-main.c4b003f9.js",
+    "runtime-main.js.map": "/Reacipes-app/static/js/runtime-main.c4b003f9.js.map",
+    "static/js/2.bb2919b1.chunk.js": "/Reacipes-app/static/js/2.bb2919b1.chunk.js",
+    "static/js/2.bb2919b1.chunk.js.map": "/Reacipes-app/static/js/2.bb2919b1.chunk.js.map",
+    "index.html": "/Reacipes-app/index.html",
+    "static/css/main.c94dfa18.chunk.css.map": "/Reacipes-app/static/css/main.c94dfa18.chunk.css.map",
+    "static/js/2.bb2919b1.chunk.js.LICENSE.txt": "/Reacipes-app/static/js/2.bb2919b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4b003f9.js",
+    "static/js/2.bb2919b1.chunk.js",
+    "static/css/main.c94dfa18.chunk.css",
+    "static/js/main.236a5072.chunk.js"
+  ]
+}
