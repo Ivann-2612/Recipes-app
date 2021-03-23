@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Home from './components/Home'
+import Pizzas from './components/Pizzas'
+import Meat from './components/Meat'
+import Pasta from './components/Pasta'
+import Seafood from './components/Seafood'
+import Fish from './components/Fish'
+import Nav from './components/Nav'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+     <Nav/>
+      <Switch>
+        <Route exact path="/pizzas" component={Pizzas} />
+        <Route exact path="/meat" component={Meat} />
+        <Route exact path="/pasta" component={Pasta} />
+        <Route exact path="/seafood" component={Seafood} />
+        <Route exact path="/fish" component={Fish} />
+        <Route render={() =>  <Home/>} />
+      </Switch>
+    </Router>
   );
 }
 
